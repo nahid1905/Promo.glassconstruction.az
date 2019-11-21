@@ -1,0 +1,286 @@
+html {
+    height: auto;
+    padding:44px 25px 28px 25px;
+    background-color: #fff;
+}
+body{
+    background-image: linear-gradient(to top right, #283891, #1ac7fe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -33px;
+}
+.logo{
+    padding-top: 26px;
+}
+.main-promo{
+    background-image: url(../img/group-8.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 111px;
+    background-size: contain;
+    height: 100%;
+    padding-bottom: 45px;
+}
+.content{
+    margin-top: 190px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-stretch: normal;
+    font-style: normal;
+}
+.content h2{
+    text-transform: uppercase;
+    font-family:Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.23;
+    letter-spacing: 0.14px;
+}
+.content h1{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 18px 0px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.45;
+    letter-spacing: 0.19px;
+    font-weight: bold;
+}
+.content span{
+    font-family: Montserrat;
+    font-size: 129px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.45;
+    letter-spacing: 0.6px;
+    color: #3bb14e;
+}
+.guarantee{
+    text-transform: uppercase;
+    margin-top: 8px;
+    display: inline-flex;
+}
+.guarantee h1{
+    margin-top: -25px;
+    margin-left: 5px;
+    line-height: 50px;
+}
+hr{
+    margin-top: 37px;
+    border: solid 1px #32c5ff;
+    margin-right: 125px;
+}
+p{
+    width:658px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.07px;
+    color: #ffffff;
+    text-transform: inherit;
+    margin: 30px 0 39px 0;
+}
+input{
+    height: 46px !important;
+}
+input#phone{
+    font-family: Montserrat;
+    border-radius: 23px !important;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 15px;
+    padding-left:20px ;
+    position: relative;
+    margin-right: 30px;
+    width: 279px;
+}
+input#phone:focus{
+    outline: none;
+}
+
+input#number::placeholder{
+    padding-left:5px ;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+input#call{
+    width: 186px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #000000;
+    background-color: #3bb14e;
+    border-radius: 28px;
+    margin-bottom:20px ;
+}
+.row{
+    margin: 0;
+}
+.col-md-12,
+.col-lg-12{
+    padding-left: 0px !important;
+}
+.social-mini{
+    float: right;
+    margin-top: 35px;
+    padding-right: 15px;
+}
+.social-mini i{
+    font-size: 30px;
+    color: #ffffff;
+    display: none;
+}
+/* header */
+
+.header_contact p{
+    padding-left: 36.2px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: 0.04px;
+    color: #6d7278;
+    margin-top: -6px;
+}
+.right_side_header{
+    float: right;
+    display: inline-flex;
+    margin-top: -50px;
+    padding-right: 38.7px;
+}
+.social{
+    margin-top: -15px;
+}
+.social ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.social ul li i{
+    color: #121514 !important;
+}
+
+/* Share button for mini */
+.mini-share{
+    margin-left: 37px;
+    cursor: pointer;
+    position: relative;
+}
+.mini-icons ul li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+.mini-icons ul{
+    position: absolute;
+    height: 50px;
+    margin-top: 20px;
+}
+.mini-icons ul li a{
+    text-decoration: none;
+}
+.mini-icons ul li i{
+    font-size: 20px;
+}
+
+/* End of header */
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    .content{
+        margin-top: 300px;
+        margin-bottom: 220px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .content{
+        margin-top: 350px;
+        margin-bottom: 270px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .main-promo{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    input#phone{
+    }
+    input#call{
+    }
+}
+@media screen and (max-width: 992px) {
+    p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px){
+    html{
+        padding-right: 15px;
+        padding-left:15px;
+    }
+    body{
+        height: auto;
+    }
+    input{
+        width: 200px !important;
+    }
+    .main-promo{
+        height: auto;
+        background-image: none;
+        padding-left: 25px;
+    }
+    .content{
+        margin-top: 90px;
+    }
+    .guarantee h1{
+        line-height: normal;
+        margin-top: auto;
+    }
+    .guarantee span{
+        font-size: 90px;
+    }
+    hr{
+        margin-right: 25px;
+    }
+    h1{
+        width: 100%;
+        font-size: 20px !important;
+    }
+    .content>h1{
+        margin: 20px 0px;
+    }
+    .header_contact{
+        display: none;
+    }
+    .right_side_header{
+        display: none;  
+    }
+    .social-mini i{
+        display: block;
+    }
+    .col-xs-12,
+    .col-md-12,
+    .col-lg-12{
+        padding-left: 0px !important;
+    }
+}
